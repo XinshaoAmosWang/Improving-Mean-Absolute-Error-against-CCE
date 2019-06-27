@@ -59,6 +59,7 @@ CCE.
 #### Real-world unknown noise
 
 **Person video retrieval on MARS [4]**
+
 <img src="./fig/person_video_retrieval_on_MARS.png" width="400">
 
 **Classification on Clothing 1M [5] is coming**
