@@ -27,8 +27,8 @@ Our main contribution is simple analysis and solution from the viewpoint of grad
 
 
 <p float="left">
-  <img src="./fig/illustration_IMAE.png" width="350">
-  <img src="./fig/illustration_MAE_IMAE_CCE_caption.png" width="350">
+  <img src="./fig/illustration_IMAE.png" width="400">
+  <img src="./fig/illustration_MAE_IMAE_CCE_caption.png" width="400">
 </p>
 
 * By ‘CCE is noise-sensitive and overfits training data’, we mean CCE owns high data fitting accuracy but its final test accuracy drops a lot versus its best test accuracy.
