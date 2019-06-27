@@ -49,14 +49,14 @@ CCE.
 
 **Label noise is one of the most explict cases where some observations and their labels are not matched in the training data. In this case, it is quite crucial to make your models learn meaningful patterns instead of errors.**
 
-#### Synthetic noise
+### Synthetic noise
 <img src="./fig/train_dynamics.png" width="800">
 
 <img src="./fig/test_dynamics.png" width="800">
 
 <img src="./fig/quantitative.png" width="800">
 
-#### Real-world unknown noise
+### Real-world unknown noise
 
 **Video Person Re-identification/Retrieval on MARS [4]**
 
