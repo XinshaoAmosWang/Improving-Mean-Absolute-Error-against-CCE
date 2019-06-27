@@ -58,7 +58,7 @@ CCE.
 
 #### Real-world unknown noise
 
-**Person video retrieval on MARS [4]**
+**Video Person Re-identification/Retrieval on MARS [4]**
 
 <img src="./fig/person_video_retrieval_on_MARS.png" width="400">
 
