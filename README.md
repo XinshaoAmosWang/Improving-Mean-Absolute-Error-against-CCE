@@ -58,8 +58,10 @@ CCE.
 
 #### Real-world unknown noise
 
+**Person video retrieval on MARS [4]**
 <img src="./fig/person_video_retrieval_on_MARS.png" width="400">
 
+**Classification on Clothing 1M [5] is coming**
 
 ## Hyper-paramter Analysis 
 
@@ -93,3 +95,9 @@ for training deep neural networks with noisy labels. In NeurIPS 2018.
 Understanding deep learning requires rethinking generalization.
 In ICLR, 2017.
 
+[4] L. Zheng, Z. Bie, Y. Sun, J. Wang, C. Su, S. Wang, and
+Q. Tian. Mars: A video benchmark for large-scale person
+re-identification. In ECCV, 2016.
+
+[5] Xiao et al. Learning From Massive Noisy Labeled Data for
+Image Classification. In CVPR, 2015
