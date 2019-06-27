@@ -154,7 +154,7 @@ Please kindly cite us if you find our work useful.
 }
 ```
 
-## Reference
+## References
 [1] A. Ghosh, H. Kumar, and P. Sastry. Robust loss functions
 under label noise for deep neural networks. In AAAI, 2017.
 
