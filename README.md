@@ -2,8 +2,12 @@
 Project page for [Improving Mean Absolute Error against CCE](https://arxiv.org/pdf/1903.12141.pdf). 
 
 
-
-
+**Positive comments we collected from others**
+* The proposed modification IMAE is **quite simple and should be considerably more efficient than other methods that deal with label noise**.
+* The theoretical analysis of CCE and MAE is thorough and provides an explanation of the tendency of CCE to
+overfit to incorrect labels and the underfitting of MAE to the correct labels. 
+* The experiments show a significant improvement over CCE in the case of noisy labels which validates the
+approach. I also appreciate the experiment on MARS with realistic label noise.
 
 
 ## Introduction
