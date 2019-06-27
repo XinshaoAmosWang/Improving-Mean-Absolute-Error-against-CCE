@@ -60,11 +60,11 @@ CCE.
 
 **Video Person Re-identification/Retrieval on MARS [4]**
 
-<img src="./fig/person_video_retrieval_on_MARS.png" width="500">
+<img src="./fig/person_video_retrieval_on_MARS.png" width="450">
 
 **Classification on Clothing 1M [a] is here**
 
-<img src="./fig/results_clothing1M.png" width="500">
+<img src="./fig/results_clothing1M.png" width="450">
 
 
 ## Hyper-paramter Analysis 
@@ -134,7 +134,7 @@ demonstrated to be the state-of-the-art.
 
 **Classification on Clothing 1M [a] is here**
 
-<img src="./fig/results_clothing1M.png" width="500">
+<img src="./fig/results_clothing1M.png" width="450">
 
 
 ## Citation
