@@ -25,7 +25,7 @@ Our main contribution is simple analysis and solution from the viewpoint of grad
 
 ## Takeaways
 
-<img src="./fig/illustration_MAE_IMAE_CCE.png" width="500">
+<img src="./fig/illustration_MAE_IMAE_CCE.png" width="400">
 
 * By ‘CCE is noise-sensitive and overfits training data’, we mean CCE owns high data fitting accuracy but its final test accuracy drops a lot versus its best test accuracy.
 * By ‘MAE is robust’, we mean MAE’s final test accuracy drops only a bit versus its best test one.
@@ -48,25 +48,25 @@ CCE.
 **Label noise is one of the most explict cases where some observations and their labels are not matched in the training data. In this case, it is quite crucial to make your model learn meaningful patterns instead of errors.**
 
 #### Synthetic noise
-<img src="./fig/train_dynamics.png" width="1000">
+<img src="./fig/train_dynamics.png" width="800">
 
-<img src="./fig/test_dynamics.png" width="1000">
+<img src="./fig/test_dynamics.png" width="800">
 
-<img src="./fig/quantitative.png" width="1000">
+<img src="./fig/quantitative.png" width="800">
 
 #### Real-world unknown noise
 
-<img src="./fig/person_video_retrieval_on_MARS.png" width="600">
+<img src="./fig/person_video_retrieval_on_MARS.png" width="400">
 
 
 ## Hyper-paramter Analysis 
 
-<img src="./fig/illustration_IMAE.png" width="500">
+<img src="./fig/illustration_IMAE.png" width="400">
 
 
-<img src="./fig/train_dynamics_T.png" width="1000">
+<img src="./fig/train_dynamics_T.png" width="800">
 
-<img src="./fig/test_dynamics_T.png" width="1000">
+<img src="./fig/test_dynamics_T.png" width="800">
 
 ## Citation
 
