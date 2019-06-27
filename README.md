@@ -98,7 +98,7 @@ decides the meaningful data patterns to learn. We believe that if the
 noise accounts the majority, DNNs is hard to learn meaningful
 patterns. Therefore, **the majority voting is our reasonable assumption.**
 
-#### The study from the gradient perspective is not new, e.g., Truncated Cauchy Non-Negative Matrix Factorization, ang GCE [2].  
+#### 4. The study from the gradient perspective is not new, e.g., Truncated Cauchy Non-Negative Matrix Factorization, ang GCE [2].  
 
 Yes, we agree the perspective itself is not new. However,
 we find how we analyse fundamentally and go to the simple
@@ -107,7 +107,7 @@ solution via the gradient viewpoint is novel.
 Truncated Cauchy Non-Negative Matrix Factorization (TPAMI-2017) and GCE [2] truncate large errors to filter out extreme outliers. Instead, our
 IMAE adjusts weighting variance without dropping any samples.
 
-#### The robustness is not specific for label noise. I think the method works well for general noise, e.g., outliers.
+#### 5. The robustness is not specific for label noise. I think the method works well for general noise, e.g., outliers.
 
 Yes, that is a great point. Our IMAE is suitable for all cases
 where inputs and their labels are not semantically matched,
@@ -116,7 +116,7 @@ evaluated on label noise, we did not exaggerate its efficacy.
 
 We will test more cases in the future. 
 
-#### Is the validation data clean or not? If clean, this would greatly reduce the contribution of the paper.
+#### 6. Is the validation data clean or not? If clean, this would greatly reduce the contribution of the paper.
 
 Following the ML literature, a validation set should be clean as
 we should not expect a ML model to predict noisy data well.
@@ -124,12 +124,12 @@ In other words, we cannot evaluate a model’s performance
 on noisy validation/test data. Our goal is to avoid learning
 faults from noisy data and generalise better during inference.
 
-#### More experiments with comparison to prior work and more evaluation on real-world datasets with unknown noise? 
+#### 7. More experiments with comparison to prior work and more evaluation on real-world datasets with unknown noise? 
 
 Our focus is to analyse why CCE
 overfits while MAE underfits as presented in ablation studies
 in Table 2. Under unknown real-world noise in Table 3, we
-only compared with GCE [31] as it is the most related and
+only compared with GCE [2] as it is the most related and
 demonstrated to be the state-of-the-art.
 
 **Classification on Clothing 1M [a] is here**
@@ -167,14 +167,20 @@ re-identification. In ECCV, 2016.
 
 [a] Xiao et al. Learning From Massive Noisy Labeled Data for
 Image Classification. In CVPR, 2015.
+
 [b] Patrini et al. Making deep neural networks robust to label noise:
 A loss correction approach. In CVPR, 2017.
+
 [c] Goldberger et al. Training deep neural-networks using a noise
 adaptation layer. In ICLR, 2017.
+
 [d] Vahdat et al. Toward robustness against label noise in training
 deep discriminative neural networks. In NeurIPS, 2017.
+
 [e] Tanaka et al. Joint optimization framework for learning with
 noisy labels. In CVPR, 2018.
+
 [f] Han et al. Masking: A new perspective of noisy supervision. In
 NeurIPS, 2018.
+
 [g] Jenni et al. Deep bilevel learning. In ECCV, 2018.
