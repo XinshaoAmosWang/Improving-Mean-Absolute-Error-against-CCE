@@ -14,20 +14,20 @@ Project page for [Improving Mean Absolute Error against CCE](https://arxiv.org/p
 
 Our work is a further study of robust losses following MAE [1] and GCE [2]. They proved MAE is more robust than CCE when noise exists. However, MAE’s underfitting phenomenon is not exposed and studied in the literature. We analysed it thoroughly and proposed a simple solution to embrace both high fitting ability (accurate) and test stability (robust). 
 
-Our main purpose is not a proposal to push current best performance under label noise. Instead, we focus on analysing how different losses perform differently and why, which is a fundamental research question. 
+**Our main purpose is not a proposal to push current best performance under label noise.** Instead, we focus on analysing how different losses perform differently and why, which is a fundamental research question. 
 
 Our focus is to analyse why CCE overfits while MAE underfits as presented in ablation studies in Table 2. Under unknown real-world noise in Table 3, we only compared with GCE [2] as it is the most related and demonstrated to be the state-of-the-art.
 
-IMAE is suitable for cases where inputs and labels may be unmatched.
+**IMAE is suitable for cases where inputs and labels may be unmatched.**
 
 Training DNNs requires rethinking data fitting and generalisation.
-Our main contribution is simple analysis and solution from the viewpoint of gradient magnitude with respect to logits. 
+**Our main contribution is simple analysis and solution from the viewpoint of gradient magnitude with respect to logits.** 
 
 ## Takeaways
 
 
 <p float="left">
-  <img src="./fig/illustration_IMAE.png" width="400">
+  <img src="./fig/illustration_MAE_IMAE_CCE.png" width="400">
   <img src="./fig/illustration_MAE_IMAE_CCE_caption.png" width="400">
 </p>
 
@@ -39,17 +39,15 @@ Please see our empirical evidences which can be observed in Table 2 and Figures 
 
 
 **MAE’s fitting ability is much worse than CCE. In other words, CCE overfits to incorrect labels while MAE underfits to correct labels.**
-* The robustness/sensitive to noise is from
-the angle of test accuracy stability/trend, i.e., CCE’s final
+* **The robustness/sensitive to noise is from the angle of test accuracy stability/trend**, i.e., CCE’s final
 test accuracy drops a lot versus its best one while MAE’s
 final one is almost the same as its best one; 
-* The claim ‘MAE works worse than CCE’ is from the aspect of best test
-accuracy since we generally apply early stopping to help
+* **The claim ‘MAE works worse than CCE’ is from the aspect of best test accuracy** since we generally apply early stopping to help
 CCE. 
 
 ## Results
 
-**Label noise is one of the most explict cases where some observations and their labels are not matched in the training data. In this case, it is quite crucial to make your model learn meaningful patterns instead of errors.**
+**Label noise is one of the most explict cases where some observations and their labels are not matched in the training data. In this case, it is quite crucial to make your models learn meaningful patterns instead of errors.**
 
 #### Synthetic noise
 <img src="./fig/train_dynamics.png" width="800">
@@ -89,7 +87,7 @@ Please kindly cite us if you find our work useful.
 under label noise for deep neural networks. In AAAI, 2017.
 
 [2] Z. Zhang and M. R. Sabuncu. Generalized cross entropy loss
-for training deep neural networks with noisy labels. 2018.
+for training deep neural networks with noisy labels. In NeurIPS 2018.
 
 [3] C. Zhang, S. Bengio, M. Hardt, B. Recht, and O. Vinyals.
 Understanding deep learning requires rethinking generalization.
