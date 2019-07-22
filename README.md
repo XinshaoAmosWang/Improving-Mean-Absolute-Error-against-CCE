@@ -3,8 +3,8 @@ Project page for [Improving Mean Absolute Error against CCE](https://arxiv.org/p
 
 **Since this paper is released, for your better reference, the reviews results are released following the practice of OpenReview**
 * [Reviews](https://github.com/XinshaoAmosWang/Improving-Mean-Absolute-Error-against-CCE/blob/master/ICCV19_FinalReviewsRejected/Conference%20Management%20Toolkit%20-%20View%20review.pdf)
-* [RebuttalToAC](https://github.com/XinshaoAmosWang/Improving-Mean-Absolute-Error-against-CCE/blob/master/ICCV19_FinalReviewsRejected/Conference%20Management%20Toolkit%20-%20View%20Author%20Feedback.pdf)
-& [RebuttalToReviewers](https://github.com/XinshaoAmosWang/Improving-Mean-Absolute-Error-against-CCE/blob/master/ICCV19_FinalReviewsRejected/Conference%20Management%20Toolkit%20-%20View%20Author%20Feedback.pdf)
+* [RebuttalToReviewers](https://github.com/XinshaoAmosWang/Improving-Mean-Absolute-Error-against-CCE/blob/master/ICCV19_FinalReviewsRejected/IMAE_rebuttals_V07.pdf)
+& [RebuttalToAC](https://github.com/XinshaoAmosWang/Improving-Mean-Absolute-Error-against-CCE/blob/master/ICCV19_FinalReviewsRejected/Conference%20Management%20Toolkit%20-%20View%20Author%20Feedback.pdf)
 * [Meta-Reviews](https://github.com/XinshaoAmosWang/Improving-Mean-Absolute-Error-against-CCE/blob/master/ICCV19_FinalReviewsRejected/Conference%20Management%20Toolkit%20-%20View%20meta-review.pdf)
 
 * [More Discussions](https://github.com/XinshaoAmosWang/Improving-Mean-Absolute-Error-against-CCE#discussion)
