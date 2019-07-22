@@ -1,13 +1,31 @@
 # Improving MAE’s Fitting Ability: Fundamental and Thorough Analysis with A Simple Solution
 Project page for [Improving Mean Absolute Error against CCE](https://arxiv.org/pdf/1903.12141.pdf). 
 
+**Since this paper is released, for your better reference, the reviews results are released following the practice of OpenReview**
+* [Reviews](https://github.com/XinshaoAmosWang/Improving-Mean-Absolute-Error-against-CCE/blob/master/ICCV19_FinalReviewsRejected/Conference%20Management%20Toolkit%20-%20View%20review.pdf)
+* [RebuttalToAC](https://github.com/XinshaoAmosWang/Improving-Mean-Absolute-Error-against-CCE/blob/master/ICCV19_FinalReviewsRejected/Conference%20Management%20Toolkit%20-%20View%20Author%20Feedback.pdf)
+~~ [RebuttalToReviewers](https://github.com/XinshaoAmosWang/Improving-Mean-Absolute-Error-against-CCE/blob/master/ICCV19_FinalReviewsRejected/Conference%20Management%20Toolkit%20-%20View%20Author%20Feedback.pdf)
+* [Meta-Reviews](https://github.com/XinshaoAmosWang/Improving-Mean-Absolute-Error-against-CCE/blob/master/ICCV19_FinalReviewsRejected/Conference%20Management%20Toolkit%20-%20View%20meta-review.pdf)
 
-**Positive comments we collected from others**
+**A Open Question on whether clean or noisy validation set for ML/DL researchers caring about label noise**
+
+* [Reviewer#3's opinion](file:///media/amos/E0C4F298C4F27060/ResearchDocs/ICCV2019_ImprovingMAE/FinalReviews/Conference%20Management%20Toolkit%20-%20View%20review.pdf): `The validation sets are required to be clean, which greatly decrease the contribution. **Many existing methods
+employ noisy validation set to choose hyper-parameters**, e.g., when the risk is consistent. **As minimizing risks on
+the noisy validation set is asymptotically equal to minimizing risk on the clean data**.'
+
+* [My opinion discussed with my collaborators](file:///media/amos/E0C4F298C4F27060/ResearchDocs/ICCV2019_ImprovingMAE/FinalReviews/IMAE_rebuttals_V07.pdf): Following the ML literature, **a validation set should be clean** as
+**we should not expect a ML model to predict noisy data well**.
+In other words, **we cannot evaluate/decide a model’s performance
+on noisy validation/test data**. Our goal is to avoid learning
+faults from noisy data and generalise better during inference.
+
+**Positive comments we collected**
 * The proposed modification IMAE is **quite simple and should be considerably more efficient than other methods that deal with label noise**.
 * The theoretical analysis of CCE and MAE is thorough and provides an explanation of the tendency of CCE to
 overfit to incorrect labels and the underfitting of MAE to the correct labels. 
 * The experiments show a significant improvement over CCE in the case of noisy labels which validates the
-approach. I also appreciate the experiment on MARS with realistic label noise.
+approach. I also appreciate the experiment on MARS with realistic label noise. I appreciate the comparison on Clothing-1M provided by the authors. The results there suggest that
+under realistic label noise the method actually works well when compared to SotA methods.
 
 
 ## Introduction
