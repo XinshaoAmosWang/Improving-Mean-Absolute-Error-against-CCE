@@ -7,6 +7,8 @@ Project page for [Improving Mean Absolute Error against CCE](https://arxiv.org/p
 ~~ [RebuttalToReviewers](https://github.com/XinshaoAmosWang/Improving-Mean-Absolute-Error-against-CCE/blob/master/ICCV19_FinalReviewsRejected/Conference%20Management%20Toolkit%20-%20View%20Author%20Feedback.pdf)
 * [Meta-Reviews](https://github.com/XinshaoAmosWang/Improving-Mean-Absolute-Error-against-CCE/blob/master/ICCV19_FinalReviewsRejected/Conference%20Management%20Toolkit%20-%20View%20meta-review.pdf)
 
+* [MOre Discussions](https://github.com/XinshaoAmosWang/Improving-Mean-Absolute-Error-against-CCE#discussion)
+
 **A Open Question on whether clean or noisy validation set for ML/DL researchers caring about label noise**
 
 * [Reviewer#3's opinion](file:///media/amos/E0C4F298C4F27060/ResearchDocs/ICCV2019_ImprovingMAE/FinalReviews/Conference%20Management%20Toolkit%20-%20View%20review.pdf): `The validation sets are required to be clean, which greatly decrease the contribution. **Many existing methods
