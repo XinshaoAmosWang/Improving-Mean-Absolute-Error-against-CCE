@@ -27,6 +27,8 @@ overfit to incorrect labels and the underfitting of MAE to the correct labels.
 approach. I also appreciate the experiment on MARS with realistic label noise. I appreciate the comparison on Clothing-1M provided by the authors. The results there suggest that
 under realistic label noise the method actually works well when compared to SotA methods.
 
+**What next?**
+* We will improve our work based on the ICCV-19 reviews, e.g., adding more experiments. 
 
 ## Introduction
 
