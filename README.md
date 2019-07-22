@@ -11,7 +11,7 @@ Project page for [Improving Mean Absolute Error against CCE](https://arxiv.org/p
 
 **A Open Question on whether clean or noisy validation set for ML/DL researchers caring about label noise**
 
-* [Reviewer#3's opinion](https://github.com/XinshaoAmosWang/Improving-Mean-Absolute-Error-against-CCE/blob/master/ICCV19_FinalReviewsRejected/Conference%20Management%20Toolkit%20-%20View%20review.pdf): `The validation sets are required to be clean, which greatly decrease the contribution. **Many existing methods
+* [Reviewer#3's opinion in final justification](https://github.com/XinshaoAmosWang/Improving-Mean-Absolute-Error-against-CCE/blob/master/ICCV19_FinalReviewsRejected/Conference%20Management%20Toolkit%20-%20View%20review.pdf): `The validation sets are required to be clean, which greatly decrease the contribution. **Many existing methods
 employ noisy validation set to choose hyper-parameters**, e.g., when the risk is consistent. **As minimizing risks on
 the noisy validation set is asymptotically equal to minimizing risk on the clean data**.'
 
