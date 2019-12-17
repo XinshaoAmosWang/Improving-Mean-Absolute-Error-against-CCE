@@ -1,6 +1,10 @@
 # Improving MAE’s Fitting Ability: Fundamental and Thorough Analysis with A Simple Solution
 Project page for [Improving Mean Absolute Error against CCE](https://arxiv.org/pdf/1903.12141.pdf). 
 
+## :+1: Code is available now!
+Please check our following work at [Emphasis-Regularisation-by-Gradient-Rescaling](https://github.com/XinshaoAmosWang/Emphasis-Regularisation-by-Gradient-Rescaling). 
+**The code is extremely simple with several lines.** 
+
 **Since this paper is released, for your better reference, the ICCV-19 reviews results are released following the practice of OpenReview**
 * [Reviews](https://github.com/XinshaoAmosWang/Improving-Mean-Absolute-Error-against-CCE/blob/master/ICCV19_FinalReviewsRejected/Conference%20Management%20Toolkit%20-%20View%20review.pdf)
 * [RebuttalToReviewers](https://github.com/XinshaoAmosWang/Improving-Mean-Absolute-Error-against-CCE/blob/master/ICCV19_FinalReviewsRejected/IMAE_rebuttals_V07.pdf)
