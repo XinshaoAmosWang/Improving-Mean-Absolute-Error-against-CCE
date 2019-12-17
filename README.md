@@ -4,7 +4,7 @@
 Please check our following work at [Emphasis-Regularisation-by-Gradient-Rescaling](https://github.com/XinshaoAmosWang/Emphasis-Regularisation-by-Gradient-Rescaling). 
 **The code is extremely simple with several lines.** 
 
-Project page for [Improving Mean Absolute Error against CCE](https://arxiv.org/pdf/1903.12141.pdf). 
+## Project page for [Improving Mean Absolute Error against CCE](https://arxiv.org/pdf/1903.12141.pdf). 
 
 **Since this paper is released, for your better reference, the ICCV-19 reviews results are released following the practice of OpenReview**
 * [Reviews](https://github.com/XinshaoAmosWang/Improving-Mean-Absolute-Error-against-CCE/blob/master/ICCV19_FinalReviewsRejected/Conference%20Management%20Toolkit%20-%20View%20review.pdf)
