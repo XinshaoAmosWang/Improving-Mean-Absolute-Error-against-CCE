@@ -2,7 +2,7 @@
 Project page for [Improving Mean Absolute Error against CCE](https://arxiv.org/pdf/1903.12141.pdf).
 
 ### :+1: Code is available now!
-Please check our following work at [Emphasis-Regularisation-by-Gradient-Rescaling](https://github.com/XinshaoAmosWang/Emphasis-Regularisation-by-Gradient-Rescaling). 
+Please check our following work at [Emphasis-Regularisation-by-Gradient-Rescaling](https://github.com/XinshaoAmosWang/Emphasis-Regularisation-by-Gradient-Rescaling#1-code-is-available-now). 
 **The code is extremely simple with several lines.** 
 
 ## Open Reviews and Discussion 
