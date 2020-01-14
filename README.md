@@ -140,7 +140,7 @@ CCE.
 
 **Classification on Clothing 1M [a] is here**
 
-<img src="./fig/table5.png" width="450">
+<img src="./fig/table5.png" width="800">
 
 
 ## Hyper-paramter Analysis 
