@@ -3,6 +3,8 @@ Project page for [Mean Absolute Error Does Not Treat Examples Equally and Gradie
 
 ### :+1: Please Help Give Me A Star and Advertise This Work IF You Like This Work. I Need To Convince My Friends That This Is A Good Work Although It Is NOT PUBLISHED YET. If You Would Like To Reproduce My Results, I Am Very Glad To Help. THNAK YOU SO MUCH!
 
+### :+1: If You have any questions on this work, Please feel free to contact me. 
+
 ### :+1: Code is available now!
 Please check our following work at [Emphasis-Regularisation-by-Gradient-Rescaling](https://github.com/XinshaoAmosWang/Emphasis-Regularisation-by-Gradient-Rescaling#1-code-is-available-now). 
 **The code is extremely simple with several lines.** 
