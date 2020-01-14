@@ -1,9 +1,26 @@
-# Improving MAE’s Fitting Ability: Fundamental and Thorough Analysis with A Simple Solution
-Project page for [Improving Mean Absolute Error against CCE](https://arxiv.org/pdf/1903.12141.pdf).
+# IMAE for Noise-Robust Learning: Mean Absolute Error Does Not Treat Examples Equally and Gradient Magnitude’s Variance Matters
+Project page for [Mean Absolute Error Does Not Treat Examples Equally and Gradient Magnitude's Variance Matters](https://arxiv.org/pdf/1903.12141.pdf).
+
+### :+1: Please Help Give Me A Star and Advertise This Work IF You Like This Work. I Need To Convince My Friends That This Is A Good Work Although It Is NOT PUBLISHED YET. If You Would Like To Reproduce My Results, I Am Very Glad To Help. THNAK YOU SO MUCH!
 
 ### :+1: Code is available now!
 Please check our following work at [Emphasis-Regularisation-by-Gradient-Rescaling](https://github.com/XinshaoAmosWang/Emphasis-Regularisation-by-Gradient-Rescaling#1-code-is-available-now). 
 **The code is extremely simple with several lines.** 
+
+
+## Citation
+
+Please kindly cite us if you find our work useful.
+
+```
+@article{wang2019improving,
+  title={Improving {MAE} against {CCE} under Label Noise},
+  author={Wang, Xinshao and Kodirov, Elyor and Hua, Yang and Robertson, Neil M},
+  journal={arXiv preprint arXiv:1903.12141},
+  year={2019}
+}
+```
+
 
 ## Open Reviews and Discussion 
 
@@ -35,8 +52,9 @@ overfit to incorrect labels and the underfitting of MAE to the correct labels.
 approach. I also appreciate the experiment on MARS with realistic label noise. I appreciate the comparison on Clothing-1M provided by the authors. The results there suggest that
 under realistic label noise the method actually works well when compared to SotA methods.
 
+<!--
 **What next?**
-* We will improve our work based on the ICCV-19 reviews, e.g., adding more experiments. 
+* We will improve our work based on the ICCV-19 reviews, e.g., adding more experiments. -->
 
 ## Introduction
 
@@ -46,9 +64,11 @@ under realistic label noise the method actually works well when compared to SotA
 
 Our work is a further study of robust losses following MAE [1] and GCE [2]. They proved MAE is more robust than CCE when noise exists. However, MAE’s underfitting phenomenon is not exposed and studied in the literature. We analysed it thoroughly and proposed a simple solution to embrace both high fitting ability (accurate) and test stability (robust). 
 
+<!--
 **Our main purpose is not a proposal to push current best performance under label noise.** Instead, we focus on analysing how different losses perform differently and why, which is a fundamental research question. 
 
 Our focus is to analyse why CCE overfits while MAE underfits as presented in ablation studies in Table 2. Under unknown real-world noise in Table 3, we only compared with GCE [2] as it is the most related and demonstrated to be the state-of-the-art.
+-->
 
 **IMAE is suitable for cases where inputs and labels may be unmatched.**
 
@@ -63,11 +83,27 @@ Training DNNs requires rethinking data fitting and generalisation.
   <img src="./fig/illustration_MAE_IMAE_CCE_caption.png" width="400">
 </p>
 
+<p float="left">
+  <img src="./fig/introduction_table.png" width="400">
+  <img src="./fig/introduction_caption.png" width="400">
+</p>
+
+<p float="left">
+  <img src="./fig/table2.png" width="400">
+  <img src="./fig/table2_caption.png" width="400">
+</p>
+
+<p float="left">
+  <img src="./fig/figure3.png" width="400">
+  <img src="./fig/figure3_caption.png" width="400">
+</p>
+
+
 * By ‘CCE is noise-sensitive and overfits training data’, we mean CCE owns high data fitting accuracy but its final test accuracy drops a lot versus its best test accuracy.
 * By ‘MAE is robust’, we mean MAE’s final test accuracy drops only a bit versus its best test one.
 * By ‘MAE underfits training data’, we mean its training and best test accuracies are low.
 
-Please see our empirical evidences which can be observed in Table 2 and Figures 3, 4.
+Please see our empirical evidences in the paper.
 
 
 **MAE’s fitting ability is much worse than CCE. In other words, CCE overfits to incorrect labels while MAE underfits to correct labels.**
@@ -82,21 +118,27 @@ CCE.
 **Label noise is one of the most explicit cases where some observations and their labels are not matched in the training data. In this case, it is quite crucial to make your models learn meaningful patterns instead of errors.**
 
 ### Synthetic noise
-<img src="./fig/train_dynamics.png" width="800">
 
-<img src="./fig/test_dynamics.png" width="800">
+<p float="left">
+  <img src="./fig/table3.png" width="400">
+  <img src="./fig/table3_caption.png" width="400">
+</p>
 
-<img src="./fig/quantitative.png" width="800">
+<p float="left">
+  <img src="./fig/table4.png" width="400">
+</p>
+
+
+
+<img src="./fig/table6.png" width="800">
+<img src="./fig/figure4.png" width="800">
+
 
 ### Real-world unknown noise
 
-**Video Person Re-identification/Retrieval on MARS [4]**
-
-<img src="./fig/person_video_retrieval_on_MARS.png" width="450">
-
 **Classification on Clothing 1M [a] is here**
 
-<img src="./fig/results_clothing1M.png" width="450">
+<img src="./fig/table5.png" width="450">
 
 
 ## Hyper-paramter Analysis 
@@ -166,21 +208,10 @@ demonstrated to be the state-of-the-art.
 
 **Classification on Clothing 1M [a] is here**
 
-<img src="./fig/results_clothing1M.png" width="450">
+<img src="./fig/table5.png" width="450">
 
 
-## Citation
 
-Please kindly cite us if you find our work useful.
-
-```
-@article{wang2019improving,
-  title={Improving {MAE} against {CCE} under Label Noise},
-  author={Wang, Xinshao and Kodirov, Elyor and Hua, Yang and Robertson, Neil M},
-  journal={arXiv preprint arXiv:1903.12141},
-  year={2019}
-}
-```
 
 ## References
 [1] A. Ghosh, H. Kumar, and P. Sastry. Robust loss functions
