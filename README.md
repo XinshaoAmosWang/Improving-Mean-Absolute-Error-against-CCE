@@ -91,8 +91,8 @@ Training DNNs requires rethinking data fitting and generalisation.
 </p>
 
 <p float="left">
-  <img src="./fig/table2.png" width="400">
-  <img src="./fig/table2_caption.png" width="400">
+  <img src="./fig/table2_caption.png" width="800">
+  <img src="./fig/table2.png" width="800">
 </p>
 
 <p float="left">
