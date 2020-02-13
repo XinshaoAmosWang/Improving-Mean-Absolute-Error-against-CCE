@@ -15,8 +15,8 @@ Please check our following work at [Emphasis-Regularisation-by-Gradient-Rescalin
 Please kindly cite us if you find our work useful.
 
 ```
-@article{wang2019improving,
-  title={Improving {MAE} against {CCE} under Label Noise},
+@article{wang2019imae,
+  title={{IMAE} for Noise-Robust Learning: Mean Absolute Error Does Not Treat Examples Equally and Gradient Magnitude’s Variance Matters},
   author={Wang, Xinshao and Kodirov, Elyor and Hua, Yang and Robertson, Neil M},
   journal={arXiv preprint arXiv:1903.12141},
   year={2019}
