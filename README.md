@@ -1,5 +1,9 @@
 # IMAE for Noise-Robust Learning: Mean Absolute Error Does Not Treat Examples Equally and Gradient Magnitude’s Variance Matters
+
 Project page for [Mean Absolute Error Does Not Treat Examples Equally and Gradient Magnitude's Variance Matters](https://arxiv.org/pdf/1903.12141.pdf).
+
+[Slide: Example Weighting for Deep Representation
+Learning using IMAE and DM](./IMAE_DM_V03_17052020_at_KAUST_VISION-CAIR_GROUP.pdf)
 
 ### :+1: Please Help Give Me A Star and Advertise This Work IF You Like This Work. I Need To Convince Myself That This Is A Good Work Although It Is NOT PUBLISHED YET. If You Would Like To Reproduce My Results, I Am Very Glad To Help. THANK YOU SO MUCH!
 
