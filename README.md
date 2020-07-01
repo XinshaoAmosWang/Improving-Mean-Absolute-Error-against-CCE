@@ -8,7 +8,7 @@
 * [To design loss functions or derivative directly? What is the right way to weight examples as they are not created equally for training?](https://www.reddit.com/r/MachineLearning/comments/hjg8da/r_to_design_loss_functions_or_derivative_directly/)
 * This paper is still working on improving loss functions.
 
-* Instead in our work, we go deeper and propose a much more flexible framework **to design the derivative straightforwardly without deriving it from a loss function, is not it very cool?**
+* Instead in our work, we go deeper and propose a much more flexible framework **to design the derivative straightforwardly without deriving it from a loss function, [is not it very cool?](https://arxiv.org/pdf/1905.11233.pdf)**
 
 * Besides, we propose to **interpret the derivative magnitude of one data point as its weight. Rethinking of deep learning optimisation is probably needed here!**
 
