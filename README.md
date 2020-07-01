@@ -10,7 +10,7 @@
 
 * Instead in our work, we go deeper and propose a much more flexible framework **to design the derivative straightforwardly without deriving it from a loss function, [is not it very cool?](https://arxiv.org/pdf/1905.11233.pdf)**
 
-* Besides, we propose to **interpret the derivative magnitude of one data point as its weight. Rethinking of deep learning optimisation is probably needed here!**
+* Besides, we propose to **interpret the derivative magnitude of one data point as its weight. Rethinking of deep learning optimisation is probably needed [here](https://arxiv.org/pdf/1905.11233.pdf)!**
 
 
 #### :+1: [Code releasing](https://xinshaoamoswang.github.io/blogs/2020-06-14-code-releasing/)
