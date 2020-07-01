@@ -5,11 +5,19 @@ Project page for [Mean Absolute Error Does Not Treat Examples Equally and Gradie
 [Slide: Example Weighting for Deep Representation
 Learning using IMAE and DM](./IMAE_DM_V03_17052020_at_KAUST_VISION-CAIR_GROUP.pdf)
 
-#### :+1: [Glad to know that our recent papers have inspired an ICML 2020 paper: [Normalized Loss Functions for Deep Learning with Noisy Labels](https://arxiv.org/pdf/2006.13554.pdf)](https://www.reddit.com/r/MachineLearning/comments/hjg8da/r_to_design_loss_functions_or_derivative_directly/)
+#### :+1: Glad to know that our recent papers have inspired an ICML 2020 paper: [Normalized Loss Functions for Deep Learning with Noisy Labels](https://arxiv.org/pdf/2006.13554.pdf)
+* [To design loss functions or derivative directly? What is the right way to weight examples as they are not created equally for training?](https://www.reddit.com/r/MachineLearning/comments/hjg8da/r_to_design_loss_functions_or_derivative_directly/)
+* This paper is still working on improving loss functions.
 
-#### :+1: Code is available!
-Please check our following work at [Emphasis-Regularisation-by-Gradient-Rescaling](https://github.com/XinshaoAmosWang/Emphasis-Regularisation-by-Gradient-Rescaling#1-code-is-available-now). 
-**The code is extremely simple with several lines.** 
+* Instead in our work, we go deeper and propose a much more flexible framework **to design the derivative straightforwardly without deriving it from a loss function, is not it very cool?**
+
+* Besides, we propose to **interpret the derivative magnitude of one data point as its weight. Rethinking of deep learning optimisation is probably needed here!**
+
+
+#### :+1: [Code releasing](https://xinshaoamoswang.github.io/blogs/2020-06-14-code-releasing/)
+
+#### Please check our following work at [Derivative Manipulation for General Example Weighting](https://xinshaoamoswang.github.io/blogs/2020-06-14-code-releasing/). 
+ 
 
 
 ## Citation
