@@ -1,9 +1,8 @@
 ## IMAE for Noise-Robust Learning: Mean Absolute Error Does Not Treat Examples Equally and Gradient Magnitude’s Variance Matters
 
-Project page for [Mean Absolute Error Does Not Treat Examples Equally and Gradient Magnitude's Variance Matters](https://arxiv.org/pdf/1903.12141.pdf).
+* [Paper](https://arxiv.org/pdf/1903.12141.pdf)
+* [Slide: Example Weighting for Deep Representation Learning using IMAE and DM](./IMAE_DM_V03_17052020_at_KAUST_VISION-CAIR_GROUP.pdf)
 
-[Slide: Example Weighting for Deep Representation
-Learning using IMAE and DM](./IMAE_DM_V03_17052020_at_KAUST_VISION-CAIR_GROUP.pdf)
 
 #### :+1: Glad to know that our recent papers have inspired an ICML 2020 paper: [Normalized Loss Functions for Deep Learning with Noisy Labels](https://arxiv.org/pdf/2006.13554.pdf)
 * [To design loss functions or derivative directly? What is the right way to weight examples as they are not created equally for training?](https://www.reddit.com/r/MachineLearning/comments/hjg8da/r_to_design_loss_functions_or_derivative_directly/)
