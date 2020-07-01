@@ -1,15 +1,13 @@
-# IMAE for Noise-Robust Learning: Mean Absolute Error Does Not Treat Examples Equally and Gradient Magnitude’s Variance Matters
+## IMAE for Noise-Robust Learning: Mean Absolute Error Does Not Treat Examples Equally and Gradient Magnitude’s Variance Matters
 
 Project page for [Mean Absolute Error Does Not Treat Examples Equally and Gradient Magnitude's Variance Matters](https://arxiv.org/pdf/1903.12141.pdf).
 
 [Slide: Example Weighting for Deep Representation
 Learning using IMAE and DM](./IMAE_DM_V03_17052020_at_KAUST_VISION-CAIR_GROUP.pdf)
 
-### :+1: Please Help Give Me A Star and Advertise This Work IF You Like This Work. I Need To Convince Myself That This Is A Good Work Although It Is NOT PUBLISHED YET. If You Would Like To Reproduce My Results, I Am Very Glad To Help. THANK YOU SO MUCH!
+#### :+1: [Glad to know that our recent papers have inspired an ICML 2020 paper: [Normalized Loss Functions for Deep Learning with Noisy Labels](https://arxiv.org/pdf/2006.13554.pdf)](https://www.reddit.com/r/MachineLearning/comments/hjg8da/r_to_design_loss_functions_or_derivative_directly/)
 
-### :+1: If You have any questions on this work, Please feel free to contact me. 
-
-### :+1: Key Code is available!
+#### :+1: Code is available!
 Please check our following work at [Emphasis-Regularisation-by-Gradient-Rescaling](https://github.com/XinshaoAmosWang/Emphasis-Regularisation-by-Gradient-Rescaling#1-code-is-available-now). 
 **The code is extremely simple with several lines.** 
 
