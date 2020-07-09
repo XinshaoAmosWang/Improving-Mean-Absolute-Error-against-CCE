@@ -4,6 +4,8 @@
 * [Slide: Example Weighting for Deep Representation Learning using IMAE and DM](./IMAE_DM_V03_17052020_at_KAUST_VISION-CAIR_GROUP.pdf)
 
 
+### Code is under legal check... 
+
 #### :+1: Glad to know that our recent papers have inspired an ICML 2020 paper: [Normalized Loss Functions for Deep Learning with Noisy Labels](https://arxiv.org/pdf/2006.13554.pdf)
 * [Open discussion on deep robustness, please!](https://www.reddit.com/r/MachineLearning/comments/hjlayq/r_open_discussion_on_deep_robustness_please/)
 * This paper is still working on improving loss functions.
