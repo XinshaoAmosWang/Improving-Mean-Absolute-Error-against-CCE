@@ -2,9 +2,8 @@
 
 * [Paper](https://arxiv.org/pdf/1903.12141.pdf)
 * [Slide: Example Weighting for Deep Representation Learning using IMAE and DM](./IMAE_DM_V03_17052020_at_KAUST_VISION-CAIR_GROUP.pdf)
-
-
-### Code is under legal check... 
+* Code is under legal check... 
+* This work has contributed to my PhD thesis: [Example Weighting for Deep Representation Learning](https://pure.qub.ac.uk/en/studentTheses/example-weighting-for-deep-representation-learning). Therefore, this work passed the review/examination. Please feel safe to cite our work. 
 
 #### :+1: Glad to know that our recent papers have inspired an ICML 2020 paper: [Normalized Loss Functions for Deep Learning with Noisy Labels](https://arxiv.org/pdf/2006.13554.pdf)
 * [Open discussion on deep robustness, please!](https://www.reddit.com/r/MachineLearning/comments/hjlayq/r_open_discussion_on_deep_robustness_please/)
@@ -14,8 +13,10 @@
 
 * Besides, we propose to **interpret the derivative magnitude of one data point as its weight. Rethinking of deep learning optimisation is probably needed [here](https://arxiv.org/pdf/1905.11233.pdf)!**
 
-
+<!--
 #### :+1: [Code releasing](https://xinshaoamoswang.github.io/blogs/2020-06-14-code-releasing/)
+-->
+
 
 #### Please check our following work at [Derivative Manipulation for General Example Weighting](https://xinshaoamoswang.github.io/blogs/2020-06-14-code-releasing/). 
  
