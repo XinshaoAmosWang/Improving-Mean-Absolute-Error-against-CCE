@@ -20,16 +20,11 @@
 
 #### :+1: Selected work partially impacted by our work
 * [ICML-20: Normalized Loss Functions for Deep Learning with Noisy Labels](https://arxiv.org/pdf/2006.13554.pdf)
-
-
 * [ICML-20: SIGUA: Forgetting May Make Learning with Noisy Labels More Robust](https://proceedings.icml.cc/static/paper_files/icml/2020/705-Paper.pdf)
-  
   * [Notes and remarks](https://xinshaoamoswang.github.io/blogs/2020-06-14-Robust-Deep-LearningviaDerivativeManipulationIMAE/#how-do-you-think-of-requesting-kind-citations)
 
 * [NeurIPS-20: Early-Learning Regularization Prevents Memorization of Noisy Labels](https://proceedings.neurips.cc/paper/2020/hash/ea89621bee7c88b2c5be6681c8ef4906-Abstract.html)
-  
   * **The analysis about "gradient and example weighting" has been done in our [IMAE](https://arxiv.org/abs/1903.12141) + [DM](https://arxiv.org/abs/1905.11233)**, which mathematically prove that CCE tends to over-fit and why, and how to propose robust example weighting schemes.
-
   * Their analysis in Page#4: During the early-learning stage, the algorithm makes progress and the accuracy on wrongly labeledexamples increases. However, during this initial stage, the relative importance of the wrongly labeled examples continues to grow; once the effect of the wrongly labeled examples begins to dominate, memorization occurs.
 
 * [NeurIPS-20: Coresets for Robust Training of Deep Neural Networks against Noisy Labels](https://proceedings.neurips.cc/paper/2020/hash/8493eeaccb772c0878f99d60a0bd2bb3-Abstract.html)
@@ -38,7 +33,6 @@
 * [Medical Image Analysis: Deep learning with noisy labels: Exploring techniques and remedies in medical image analysis](https://www.sciencedirect.com/science/article/pii/S1361841520301237)
 
 * [2020 IEEE 17th International Symposium on Biomedical Imaging (ISBI): Learning to Detect Brain Lesions from Noisy Annotations](https://ieeexplore.ieee.org/abstract/document/9098599)
-
 * [A Survey on Deep Learning with Noisy Labels: How to train your model when you cannot trust on the annotations?](http://sibgrapi.sid.inpe.br/col/sid.inpe.br/sibgrapi/2020/09.30.23.54/doc/Tutorial_ID_4_SIBGRAPI_2020_camara_ready_v2%20copy.pdf)
 
 #### Please check our following work at [Derivative Manipulation for General Example Weighting, May 2019](https://xinshaoamoswang.github.io/blogs/2020-06-14-Robust-Deep-LearningviaDerivativeManipulationIMAE/). 
