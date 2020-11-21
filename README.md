@@ -30,7 +30,7 @@
   
   * **The analysis about "gradient and example weighting" has been done in our [IMAE](https://arxiv.org/abs/1903.12141) + [DM](https://arxiv.org/abs/1905.11233)**, which mathematically proves that CCE tends to over-fit and why, and how to propose robust example weighting schemes.
 
-  * Their analysis in Page#4: During the early-learning stage, the algorithm makes progress and the accuracy on wrongly labeledexamples increases. However, during this initial stage, the relative importance of the wrongly labeledexamples continues to grow; once the effect of the wrongly labeled examples begins to dominate,memorization occurs.
+  * Their analysis in Page#4: During the early-learning stage, the algorithm makes progress and the accuracy on wrongly labeledexamples increases. However, during this initial stage, the relative importance of the wrongly labeled examples continues to grow; once the effect of the wrongly labeled examples begins to dominate, memorization occurs.
 
 * [NeurIPS-20: Coresets for Robust Training of Deep Neural Networks against Noisy Labels](https://proceedings.neurips.cc/paper/2020/hash/8493eeaccb772c0878f99d60a0bd2bb3-Abstract.html)
   * The key idea behind this method is to select subsets of clean data points that provide an approximately low-rank Jacobian matrix. The authors then prove that gradient descent applied to the subsets cannot overfit the noisy labels, even without regularization or early stopping.
