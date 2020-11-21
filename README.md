@@ -14,11 +14,11 @@
 * Besides, we propose to **interpret the derivative magnitude of one data point as its weight. Rethinking of deep learning optimisation is probably needed [here](https://arxiv.org/pdf/1905.11233.pdf)!**
 
 <!--
-#### :+1: [Code releasing](https://xinshaoamoswang.github.io/blogs/2020-06-14-code-releasing/)
+#### :+1: [Code releasing](https://xinshaoamoswang.github.io/blogs/2020-02-18-code-releasing/)
 -->
 
 
-#### Please check our following work at [Derivative Manipulation for General Example Weighting](https://xinshaoamoswang.github.io/blogs/2020-06-14-code-releasing/). 
+#### Please check our following work at [Derivative Manipulation for General Example Weighting](https://xinshaoamoswang.github.io/blogs/2020-06-14-Robust-Deep-LearningviaDerivativeManipulationIMAE/). 
  
 
 
